@@ -53,7 +53,6 @@ def run_patches_classification(file_path,
                                max_lead_time: datetime.timedelta = datetime.timedelta(minutes=200),
                                gp_optimiser_params: Optional[GPChainOptimiserParameters] = None):
     size = 120
-    # dataset_to_compose, dataset_to_validate = from_json(file_path)
     dataset_to_compose, dataset_to_validate = from_images(file_path)
 
     # the search of the models provided by the framework that can be used as nodes in a chain for the selected task
@@ -72,9 +71,9 @@ def run_patches_classification(file_path,
     composer_requirements = GPNNComposerRequirements(
         conv_types=conv_types, pool_types=pool_types, cnn_secondary=cnn_secondary,
         primary=nn_primary, secondary=nn_secondary, min_arity=2, max_arity=2,
-        max_depth=7, pop_size=1, num_of_generations=1,
+        max_depth=7, pop_size=10, num_of_generations=10,
         crossover_prob=0.8, mutation_prob=0.7, max_lead_time=max_lead_time,
-        image_size=[size, size], train_epochs_num=1)
+        image_size=[size, size], train_epochs_num=3)
 
     # Create GP-based composer
     composer = GPNNComposer()
@@ -88,7 +87,7 @@ def run_patches_classification(file_path,
                                                 is_visualise=True, optimiser_parameters=gp_optimiser_params)
 
     chain_evo_composed.fit(input_data=dataset_to_compose, verbose=True, input_shape=(size, size, 3), min_filters=64,
-                           max_filters=256, epochs=1)
+                           max_filters=256, epochs=10)
 
     json_file = 'model.json'
     model_json = chain_evo_composed.model.to_json()
