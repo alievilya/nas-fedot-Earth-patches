@@ -23,16 +23,16 @@ def calculate_validation_metric(chain: Chain, dataset_to_validate: InputData) ->
     # the execution of the obtained composite models
     predicted = chain.predict(dataset_to_validate)
     # the quality assessment for the simulation results
-    roc_auc_value = roc_auc(y_true=dataset_to_validate.target,
-                            y_score=predicted.predict,
-                            multi_class="ovr", average="weighted")
+    # roc_auc_value = roc_auc(y_true=dataset_to_validate.target,
+    #                         y_score=predicted.predict,
+    #                         multi_class="ovr", average="weighted")
     y_pred = []
-    # roc_auc_values = []
-    # for predict, true in zip(predicted.predict, dataset_to_validate.target):
-    #     roc_auc_score = roc_auc(y_true=true,
-    #                             y_score=predict)
-    #     roc_auc_values.append(roc_auc_score)
-    # roc_auc_value = statistics.mean(roc_auc_values)
+    roc_auc_values = []
+    for predict, true in zip(predicted.predict, dataset_to_validate.target):
+        roc_auc_score = roc_auc(y_true=true,
+                                y_score=predict)
+        roc_auc_values.append(roc_auc_score)
+    roc_auc_value = statistics.mean(roc_auc_values)
 
     for predict in predicted.predict:
         values = []
