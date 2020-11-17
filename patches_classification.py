@@ -39,7 +39,6 @@ def calculate_validation_metric(chain: Chain, dataset_to_validate: InputData) ->
         for val in predict:
             values.append(round(val))
         y_pred.append(np.float64(values))
-    # y_pred = [np.float64(round(predict)) ]
     y_pred = np.array(y_pred)
     log_loss_value = log_loss(y_true=dataset_to_validate.target,
                               y_pred=y_pred)
