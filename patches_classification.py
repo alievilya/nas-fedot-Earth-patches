@@ -110,6 +110,6 @@ def run_patches_classification(file_path,
 
 if __name__ == '__main__':
 
-    os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+    os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
     file_path = 'Generated_dataset'
     run_patches_classification(file_path=file_path)
