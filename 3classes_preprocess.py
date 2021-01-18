@@ -116,33 +116,47 @@ def count_classes(class_dict, patch_class):
 
 def preprocess_save_images():
     folder_path = "dataset/Earth/"
-    save_dir = "new_gen_dataset/"
+    save_dir = "3classes/"
     file_format = ".png"
     labels_dict = {}
     encoded_labels = {}
     all_labels = set()
     not_needed = []
+    needed_labels = ['Mixed forest', 'Non-irrigated arable land']
     # for file_name in os.listdir(folder_path):
     classes_counter = dict()
 
     for nomer_iter, file_name in tqdm(enumerate(os.listdir(folder_path))):
         skip = False
-        if nomer_iter == 100:
-            break
         folder_name = folder_path + file_name
         images_dict, labels_name = get_images(folder_name)
         labels = get_labels(labels_name)
 
         image = gdal_combine_channels(images_dict)
-        labels_dict[file_name] = labels
+
+
 
         for label in labels:
-            if classes_counter.get(label):
-                skip = classes_counter.get(label) >= 2000
-
+            if label not in needed_labels:
+                skip = True
+                break
+            elif len(labels) > 1:
+                skip = True
+                break
+            elif classes_counter.get(label) is not None:
+                if classes_counter.get(label) >= 20:
+                    skip = True
+                    break
+                else:
+                    continue
+            else:
+                print('shet')
+                continue
+        #
         if skip:
             continue
 
+        labels_dict[file_name] = labels
         save_path = save_dir + file_name + file_format
 
         # Rescale to 0-255 and convert to uint8
@@ -152,13 +166,14 @@ def preprocess_save_images():
 
 
         for label in labels:
-            all_labels.add(label)
-            encoded_number = encoded_labels.get(label)
-            if not encoded_number:
-                rand_num = np.random.randint(0, 29)
-                # if rand_num not in encoded_labels.values():
-                encoded_labels[label] = rand_num
-            classes_counter = count_classes(classes_counter, label)
+            if not skip:
+                all_labels.add(label)
+                encoded_number = encoded_labels.get(label)
+                if not encoded_number:
+                    rand_num = np.random.randint(0, 3)
+                    # if rand_num not in encoded_labels.values():
+                    encoded_labels[label] = rand_num
+                classes_counter = count_classes(classes_counter, label)
     with open('labels.json', 'w') as fp:
         json.dump(labels_dict, fp)
     with open('encoded_labels.json', 'w') as fp:

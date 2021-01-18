@@ -2,107 +2,109 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5f30e4e-faaf-4d04-b768-6c58057de78a" name="Default Changelist" comment="counting classes">
+      <change afterPath="$PROJECT_DIR$/3classes_preprocess.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_45.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_45.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_46.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_46.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_47.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_47.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_48.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_49.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_49.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_50.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_50.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_51.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_51.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_52.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_52.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_53.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_53.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_54.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_54.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_55.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_55.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_56.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_56.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_57.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_57.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_58.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_58.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_59.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_59.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_60.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_60.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_61.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_61.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_62.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_62.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_63.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_63.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_64.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_64.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_65.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_65.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_66.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_66.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_67.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_67.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_68.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_68.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_69.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_69.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_70.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_70.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_71.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_71.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_72.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_73.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_73.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_74.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_74.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_75.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_75.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_76.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_76.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_77.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_77.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_78.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_78.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_79.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_79.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_80.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_80.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_81.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_81.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_82.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_82.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_83.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_83.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_84.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_84.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_85.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_85.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_86.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_86.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_87.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_87.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_88.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_88.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_89.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_89.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_90.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_90.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_39.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_39.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_40.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_41.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_41.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_42.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_42.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_43.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_43.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_44.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_44.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_45.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_45.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_46.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_46.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_47.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_47.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_48.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_49.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_49.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_50.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_50.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_51.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_51.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_52.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_52.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_53.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_53.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_54.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_54.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_55.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_55.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_56.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_56.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_57.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_57.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_58.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_58.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_59.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_59.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_60.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_60.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_61.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_61.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_62.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_62.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_63.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_63.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_64.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_64.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_65.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_65.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_66.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_66.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_67.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_67.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_68.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_68.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_69.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_69.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_70.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_70.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_71.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_71.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_72.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_72.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_73.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_73.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_74.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_74.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_75.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_75.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_76.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_76.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_77.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_77.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_78.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_78.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_79.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_79.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_80.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_80.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_81.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_81.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_82.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_82.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_83.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_83.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_84.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_84.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_85.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_85.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_86.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_86.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_87.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_87.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_88.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_88.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_89.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_89.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_90.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_90.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_11_38.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_11_38.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_11_39.png" beforeDir="false" afterPath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_11_39.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_61.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_62.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_63.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_65.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_66.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_67.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_68.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_69.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_71.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_73.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_74.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_75.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_77.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_78.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_79.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_81.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_82.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_83.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_85.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_86.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_87.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_88.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_89.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_0_90.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_57.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_61.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_62.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_63.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_64.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_65.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_66.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_67.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_68.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_69.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_70.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_71.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_73.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_74.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_75.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_77.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_78.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_79.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_80.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_81.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_82.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_83.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_85.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_86.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_87.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_88.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_89.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_10_90.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_11_38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_11_39.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_11_40.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_11_41.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101031_11_42.png" beforeDir="false" />
@@ -9986,6 +9988,10 @@
       <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101032_89_89.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101032_89_90.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Generated_dataset/S2A_MSIL2A_20170613T101032_90_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_possible_labels.txt" beforeDir="false" afterPath="$PROJECT_DIR$/all_possible_labels.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encoded_labels.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/labels.json" beforeDir="false" afterPath="$PROJECT_DIR$/labels.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10030,7 +10036,29 @@
       <recent name="X:\code\Maga_Nir\nas-fedot-master_signature\nas" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.preprocess ">
+  <component name="RunManager" selected="Python.3classes_preprocess">
+    <configuration name="3classes_preprocess" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="nas-fedot-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="X:\code\Maga_Nir\nas-fedot-master\venv1\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3classes_preprocess.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="nas-fedot-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -10146,9 +10174,11 @@
       <item itemvalue="Python.patches_classification" />
       <item itemvalue="Python.preprocess " />
       <item itemvalue="Python.signature_classification_problem" />
+      <item itemvalue="Python.3classes_preprocess" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.3classes_preprocess" />
         <item itemvalue="Python.preprocess " />
         <item itemvalue="Python.patches_classification" />
         <item itemvalue="Python.imagecolor_correction" />
@@ -10156,7 +10186,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -10167,7 +10197,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602628834640</updated>
-      <workItem from="1610826518640" duration="10998000" />
+      <workItem from="1610826518640" duration="16142000" />
+      <workItem from="1610958719745" duration="2011000" />
+      <workItem from="1610960761057" duration="4080000" />
     </task>
     <task id="LOCAL-00001" summary="parameters">
       <created>1605602655011</created>
@@ -10183,7 +10215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610838031228</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="counting classes">
+      <created>1610838146083</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610838146083</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -10229,6 +10268,11 @@
           <line>50</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/3classes_preprocess.py</url>
+          <line>140</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -10240,7 +10284,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/nas_fedot_Earth_patches$preprocess_.coverage" NAME="preprocess  Coverage Results" MODIFIED="1610837814545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nas_fedot_Earth_patches$preprocess_.coverage" NAME="preprocess  Coverage Results" MODIFIED="1610842819733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nas_fedot_Earth_patches$3classes_preprocess.coverage" NAME="3classes_preprocess Coverage Results" MODIFIED="1610967363108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/nas_fedot_Earth_patches$patches_classification.coverage" NAME="patches_classification Coverage Results" MODIFIED="1610826886544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
