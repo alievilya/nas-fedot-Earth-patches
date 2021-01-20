@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5f30e4e-faaf-4d04-b768-6c58057de78a" name="Default Changelist" comment="3 classes">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="f5f30e4e-faaf-4d04-b768-6c58057de78a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mdl_wts.hdf5" beforeDir="false" afterPath="$PROJECT_DIR$/.mdl_wts.hdf5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/all_possible_labels.txt" beforeDir="false" afterPath="$PROJECT_DIR$/all_possible_labels.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labels.json" beforeDir="false" afterPath="$PROJECT_DIR$/labels.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model.json" beforeDir="false" afterPath="$PROJECT_DIR$/model.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nas/composer/gp_cnn_composer.py" beforeDir="false" afterPath="$PROJECT_DIR$/nas/composer/gp_cnn_composer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nas/keras_eval.py" beforeDir="false" afterPath="$PROJECT_DIR$/nas/keras_eval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nas/nas_chain.py" beforeDir="false" afterPath="$PROJECT_DIR$/nas/nas_chain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nas/patches/load_images.py" beforeDir="false" afterPath="$PROJECT_DIR$/nas/patches/load_images.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/patches_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/patches_classification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocess.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocess.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +215,7 @@
       <workItem from="1610958719745" duration="2011000" />
       <workItem from="1610960761057" duration="4220000" />
       <workItem from="1610994007315" duration="6054000" />
-      <workItem from="1611167387435" duration="612000" />
+      <workItem from="1611167387435" duration="4836000" />
     </task>
     <task id="LOCAL-00001" summary="parameters">
       <created>1605602655011</created>
@@ -253,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610980383556</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="clasification for 3 classes">
+      <created>1611168020116</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611168020116</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +274,8 @@
     <MESSAGE value="parameters" />
     <MESSAGE value="counting classes" />
     <MESSAGE value="3 classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="3 classes" />
+    <MESSAGE value="clasification for 3 classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="clasification for 3 classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -313,6 +313,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/nas_fedot_Earth_patches$preprocess_.coverage" NAME="preprocess  Coverage Results" MODIFIED="1610842819733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/nas_fedot_Earth_patches$3classes_preprocess.coverage" NAME="3classes_preprocess Coverage Results" MODIFIED="1610967363108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/nas_fedot_Earth_patches$patches_classification.coverage" NAME="patches_classification Coverage Results" MODIFIED="1611167730156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/nas_fedot_Earth_patches$patches_classification.coverage" NAME="patches_classification Coverage Results" MODIFIED="1611171870362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
