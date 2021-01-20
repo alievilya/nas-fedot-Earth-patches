@@ -28,9 +28,6 @@ def adjust_gamma(image, gamma=4.0):
 
 
 def gamma_convertion(image, gamma=4.0):
-    # original = cv2.imread(image_name, 1)
-    # cv2.imshow('original', original)
-    #   # change the value here to get different result
     adjusted = adjust_gamma(image, gamma=gamma)
     cv2.putText(adjusted, "g={}".format(gamma), (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 3)
     cv2.imshow("gammam image 1", adjusted)
@@ -48,7 +45,6 @@ def get_images(folder_name):
     labels_name = None
     # list_of_channels = [blue_channel, green_channel, red_channel]
     for file in os.listdir(folder_name):
-
         if file[-7::] == blue_channel:
             images_dict['blue'] = (join(folder_name, file), 2)
         elif file[-7::] == green_channel:
@@ -65,19 +61,11 @@ def gdal_combine_channels(images_dict):
     for tup_im in images_dict.values():
         band_path = tup_im[0]
         ch = tup_im[1]
-        # band_path = images_dict[image]
         band_ds = gdal.Open(band_path, gdal.GA_ReadOnly)
         raster_band = band_ds.GetRasterBand(1)
         band_data = raster_band.ReadAsArray()
-        # band_data = normalize(band_data, norm='max', axis=1)
-        # band_data = minmax_scale(band_data)
-
-        # band_data = (band_data - band_data.min()) / (band_data.max() - band_data.min()) * 200.0
-
         final_arr[ch] = band_data
-
     final_arr = np.array(final_arr)
-    # image_res = np.resize(final_arr, (120, 120, 3))
     image_res = final_arr.transpose(1, 2, 0)
     return image_res
 
@@ -85,7 +73,6 @@ def gdal_combine_channels(images_dict):
 def get_labels(filename):
     data = json.load(open(filename))
     labels = data['labels']
-    # print(labels)
     return labels
 
 
@@ -150,12 +137,11 @@ def preprocess_save_images():
         im = Image.fromarray(rescaled, mode="RGB")
         im.save(save_path)
 
-
         for label in labels:
             all_labels.add(label)
             encoded_number = encoded_labels.get(label)
             if not encoded_number:
-                rand_num = np.random.randint(0, 29)
+                rand_num = np.random.randint(0, 43)
                 # if rand_num not in encoded_labels.values():
                 encoded_labels[label] = rand_num
             classes_counter = count_classes(classes_counter, label)

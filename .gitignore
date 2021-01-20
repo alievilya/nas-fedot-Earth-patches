@@ -1,4 +1,4 @@
-*.png
+#*.png
 Generated_dataset/
 
 # Byte-compiled / optimized / DLL files

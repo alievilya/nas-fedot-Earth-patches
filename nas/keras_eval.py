@@ -26,8 +26,8 @@ def keras_model_fit(model, input_data: InputData, verbose: bool = True, batch_si
 import numpy as np
 
 def keras_model_predict(model, input_data: InputData):
-    evaluation_result = model.predict(input_data.features)
-    # evaluation_result = model.predict_proba(input_data.features)
+    # evaluation_result = model.predict(input_data.features)
+    evaluation_result = model.predict_proba(input_data.features)
     # sum_rows = np.sum(evaluation_result,axis=1).tolist()
     # print(sum_rows)
     # print(np.sum(evaluation_result))
@@ -54,7 +54,7 @@ def generate_structure(node: Any):
         return [node]
 
 
-def create_nn_model(chain: Any, input_shape: tuple, classes: int = 2):
+def create_nn_model(chain: Any, input_shape: tuple, classes: int = 3):
     nn_structure = chain.cnn_nodes + generate_structure(chain.root_node)
     model = models.Sequential()
     for i, layer in enumerate(nn_structure):

@@ -7,6 +7,7 @@ import os
 from os.path import isfile, join
 from sklearn.model_selection import train_test_split
 
+
 def load_images(file_path, size=120, is_train=True):
     with open('labels.json', 'r') as fp:
         labels_dict = json.load(fp)
@@ -14,7 +15,7 @@ def load_images(file_path, size=120, is_train=True):
         encoded_labels = json.load(fp)
     Xarr = []
     Yarr = []
-    number_of_classes = 29
+    number_of_classes = 3
     files = [f for f in os.listdir(file_path) if isfile(join(file_path, f))]
     files.sort()
     for filename in files:
@@ -37,13 +38,12 @@ def load_images(file_path, size=120, is_train=True):
 
 
 def from_images(file_path, task_type: TaskTypesEnum = MachineLearningTasksEnum.classification):
-
     Xtrain, Ytrain = load_images(file_path, size=120, is_train=True)
     Xtrain, Xval, Ytrain, Yval = train_test_split(Xtrain, Ytrain, random_state=1, train_size=0.8)
     train_input_data = InputData(idx=np.arange(0, len(Xtrain)), features=Xtrain, target=np.array(Ytrain),
                                  task_type=task_type)
     val_input_data = InputData(idx=np.arange(0, len(Xval)), features=Xval, target=np.array(Yval),
-                                task_type=task_type)
+                               task_type=task_type)
     # test_input_data = InputData(idx=np.arange(0, len(Xtest)), features=Xtest, target=np.array(Ytest),
     #                            task_type=task_type)
 

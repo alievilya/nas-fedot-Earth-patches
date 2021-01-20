@@ -19,7 +19,7 @@ random.seed(2)
 np.random.seed(2)
 
 
-def calculate_validation_metric(chain: Chain, dataset_to_validate: InputData) -> Tuple[float, float, float]:
+def calculate_validation_metric_multiclass(chain: Chain, dataset_to_validate: InputData) -> Tuple[float, float, float]:
     # the execution of the obtained composite models
     predicted = chain.predict(dataset_to_validate)
     # the quality assessment for the simulation results
@@ -48,6 +48,36 @@ def calculate_validation_metric(chain: Chain, dataset_to_validate: InputData) ->
     return roc_auc_value, log_loss_value, accuracy_score_value
 
 
+def calculate_validation_metric(chain: Chain, dataset_to_validate: InputData) -> Tuple[float, float, float]:
+    # the execution of the obtained composite models
+    predicted = chain.predict(dataset_to_validate)
+    # the quality assessment for the simulation results
+    roc_auc_value = roc_auc(y_true=dataset_to_validate.target,
+                            y_score=predicted.predict,
+                            multi_class="ovo", average="macro")
+    y_pred = []
+    y_values_pred = []
+    for i, predict in enumerate(predicted.predict):
+        # true_class = dataset_to_validate.target[i]
+        # y_class_pred = predict[true_class]
+        y_class_pred = np.argmax(predict)
+        # y_class_pred2 = np.argmax(predict)
+        y_values_pred.append(y_class_pred)
+
+        y_pred.append(predicted.predict)
+    # y_pred = [np.float64(predict[0]) for predict in predicted.predict]
+    y_pred = np.array(y_pred[0])
+    log_loss_value = log_loss(y_true=dataset_to_validate.target,
+                              y_pred=y_pred)
+    # y_pred = [round(predict[0]) for predict in predicted.predict]
+    # y_pred_acc = [predict for predict in y_values_pred]
+    accuracy_score_value = accuracy_score(y_true=dataset_to_validate.target,
+                                          y_pred=y_values_pred)
+
+    return roc_auc_value, log_loss_value, accuracy_score_value
+    # return log_loss_value, accuracy_score_value
+
+
 def run_patches_classification(file_path,
                                max_lead_time: datetime.timedelta = datetime.timedelta(minutes=200),
                                gp_optimiser_params: Optional[GPChainOptimiserParameters] = None):
@@ -62,6 +92,7 @@ def run_patches_classification(file_path,
     nn_secondary = [LayerTypesIdsEnum.serial_connection, LayerTypesIdsEnum.dropout]
 
     # the choice of the metric for the chain quality assessment during composition
+    # metric_function = MetricsRepository().metric_by_id(ClassificationMetricsEnum.log_loss_multiclass)
     metric_function = MetricsRepository().metric_by_id(ClassificationMetricsEnum.log_loss_multiclass)
     # additional metrics
     # metric_function = MetricsRepository().metric_by_id(ClassificationMetricsEnum.ROCAUC)
