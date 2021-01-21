@@ -101,9 +101,9 @@ def run_patches_classification(file_path,
     composer_requirements = GPNNComposerRequirements(
         conv_types=conv_types, pool_types=pool_types, cnn_secondary=cnn_secondary,
         primary=nn_primary, secondary=nn_secondary, min_arity=2, max_arity=2,
-        max_depth=7, pop_size=10, num_of_generations=20,
-        crossover_prob=0.8, mutation_prob=0.7, max_lead_time=max_lead_time,
-        image_size=[size, size], train_epochs_num=4)
+        max_depth=7, pop_size=1, num_of_generations=1,
+        crossover_prob=0.8, mutation_prob=0.2, max_lead_time=max_lead_time,
+        image_size=[size, size], train_epochs_num=1)
 
     # Create GP-based composer
     composer = GPNNComposer()
@@ -117,7 +117,7 @@ def run_patches_classification(file_path,
                                                 is_visualise=True, optimiser_parameters=gp_optimiser_params)
 
     chain_evo_composed.fit(input_data=dataset_to_compose, verbose=True, input_shape=(size, size, 3), min_filters=64,
-                           max_filters=256, epochs=15)
+                           max_filters=256, epochs=1)
 
     json_file = 'model.json'
     model_json = chain_evo_composed.model.to_json()

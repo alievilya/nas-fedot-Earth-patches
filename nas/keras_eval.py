@@ -95,7 +95,7 @@ def create_nn_model(chain: Any, input_shape: tuple, classes: int = 3):
             model.add(layers.Dense(neurons_num, activation='relu'))
     # Output
     output_shape = 1 if classes == 2 else classes
-    model.add(layers.Dense(output_shape, activation="sigmoid"))
-    model.compile(loss='binary_crossentropy', optimizer=optimizers.RMSprop(lr=1e-4), metrics=['acc'])
+    model.add(layers.Dense(output_shape, activation="softmax"))
+    model.compile(loss='categorical_crossentropy', optimizer=optimizers.RMSprop(lr=1e-4), metrics=['acc'])
     model.summary()
     return model
